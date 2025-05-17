@@ -54,7 +54,8 @@ https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
 ---
 
 ## 👨‍💻 Developed By
-**Abdulla Nagi** / **Ahmed Othman** / **Amr Fakher**
+**Abdulla Nagi** - **Ahmed Othman** - **Amr Fakher**
+
 Ain Shams University – Mechatronics Department  
 Spring 2025
 
