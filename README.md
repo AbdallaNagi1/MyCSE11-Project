@@ -14,7 +14,7 @@ The project demonstrates a real-time **timer** and **voltage monitor** using a *
 
 ## 📹 Demonstration Video
 
-
+https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
 ---
 
 ## 🔧 Components Used
