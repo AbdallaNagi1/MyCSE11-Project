@@ -13,7 +13,7 @@ The project demonstrates a real-time **timer** and **voltage monitor** using a *
 ---
 
 ## 📹 Demonstration Video
-[CSE211 Final Report.pdf](https://github.com/user-attachments/files/20265810/CSE211.Final.Report.pdf)
+https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
 ---
 
 ## 🔧 Components Used
@@ -50,7 +50,7 @@ The project demonstrates a real-time **timer** and **voltage monitor** using a *
 ---
 
 ## 📜 Report
-https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
+[CSE211 Final Report.pdf](https://github.com/user-attachments/files/20265810/CSE211.Final.Report.pdf)
 ---
 
 ## 👨‍💻 Developed By
