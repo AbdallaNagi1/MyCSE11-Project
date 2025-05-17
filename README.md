@@ -13,18 +13,17 @@ The project demonstrates a real-time **timer** and **voltage monitor** using a *
 ---
 
 ## 📹 Demonstration Video
-
-https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
+[CSE211 Final Report.pdf](https://github.com/user-attachments/files/20265810/CSE211.Final.Report.pdf)
 ---
 
 ## 🔧 Components Used
 - NUCLEO-F401RE development board
-- 4-digit 7-segment display (common anode)
-- 74HC595 shift register
-- Potentiometer (as analog voltage source)
-- Push buttons (S1 for reset, S3 for voltage)
-- Basic resistors and breadboard wiring
-
+- Arduino Multifunction Shield (with built-in 4-digit 7-segment display, buttons, potentiometer)
+- 74HC595 shift register (integrated on the shield)
+- Onboard buttons:  
+  - **S1** → Reset timer  
+  - **S3** → Display voltage
+- Onboard potentiometer for analog voltage input
 ---
 
 ## 📁 Report
@@ -34,26 +33,24 @@ https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
 ---
 
 ## 🧠 How It Works
-- Timer starts on boot and counts every second.
-- Button **S1** resets the timer.
-- Button **S3** switches display between MM:SS and voltage (scaled).
-- Voltage values are scaled and displayed as X.XX (e.g., 2.47V → “2.47”).
-- Internally tracks min and max voltage values.
+- Timer starts on boot and increments every second.
+- Pressing **S1** resets the timer.
+- Pressing **S3** toggles the display to show the live voltage.
+- Voltage values are scaled and shown in X.XX format (e.g., 2.47V → “2.47”).
+- Tracks and stores the minimum and maximum voltage values recorded.
 
 ---
 
 ## 🧪 Features
-- Accurate timer display (MM:SS)
-- Real-time voltage measurement
-- Proper 7-segment encoding for all digits
-- Uses shift registers to drive display efficiently
-- Clean code and modular structure using `mbed`
-
+- Accurate timekeeping (MM:SS format)
+- Real-time analog voltage monitoring
+- Efficient 7-segment display control using a shift register
+- Clean, modular C++ implementation using the `mbed` platform
+- Debounced button functionality and responsive switching
 ---
 
 ## 📜 Report
-The full report is included under the `/docs` folder as a PDF file.
-
+https://github.com/user-attachments/assets/63b13961-3ed6-4ddd-9880-2a0b03365cab
 ---
 
 ## 👨‍💻 Developed By
